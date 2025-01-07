@@ -34,8 +34,8 @@
 
 document.addEventListener("DOMContentLoaded", () => {
     const tbody = document.querySelector(".invoice-table tbody");
-    const MAX_BODY_HEIGHT = 350; // Maximum height of the tbody in pixels
-    const MAX_ROWS = 11; // Maximum number of rows by default
+    const MAX_BODY_HEIGHT = 300; // Maximum height of the tbody in pixels
+    const MAX_ROWS = 10; // Maximum number of rows by default
     const ROW_HEIGHT = 35; // Approximate default row height in pixels
 
     // Function to update the table body
